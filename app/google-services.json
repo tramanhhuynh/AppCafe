@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "852892881860",
+    "firebase_url": "https://appcafedemo-b3e98-default-rtdb.firebaseio.com",
+    "project_id": "appcafedemo-b3e98",
+    "storage_bucket": "appcafedemo-b3e98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852892881860:android:3dbd3ce58a24dbeda7ca91",
+        "android_client_info": {
+          "package_name": "com.app.appcafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsZOSU-7V342_mPHWLShEGp6VpuB2NQpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852892881860:android:3c7208e59cfcf03ea7ca91",
+        "android_client_info": {
+          "package_name": "com.app.appcafedemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsZOSU-7V342_mPHWLShEGp6VpuB2NQpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_thongTin"
+        android:title="Thông tin cá nhân"/>
+    <item
+        android:id="@+id/nav_lichSu"
+        android:title="Lịch sử đơn hàng"/>
+    <item
+        android:id="@+id/nav_voucher"
+        android:title="Voucher"/>
+    <item
+        android:id="@+id/nav_yeuThich"
+        android:title="Mục yêu thích"/>
+    <item
+        android:id="@+id/nav_danhGia"
+        android:title="Đánh Giá"/>
+</group>
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="123dp"
+    android:background="@color/white"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    style="@style/CardView.Light"
+    tools:context=".Activity.FavoriteActivity">
+
+    <ImageView
+        android:id="@+id/imgFavoriteItem"
+        android:layout_width="123dp"
+        android:layout_height="123dp"
+        android:src="@drawable/ta_cafe2"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/tVFavoriteItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strawberry Foam"
+        android:textColor="#8F8C8C"
+        android:fontFamily="@font/inter_medium"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="140dp"
+        />
+    <ImageView
+        android:id="@+id/bntFav"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/favorite_white"
+        android:layout_gravity="center|end"
+        android:layout_marginEnd="8dp"/>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF6E9"
+    android:orientation="vertical"
+    tools:context=".Activity.ThanksForOrder">
+
+    <TextView
+        android:id="@+id/tVTks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/inter_tight_semibold"
+        android:text="Thanks For Your Order"
+        android:textSize="30dp"
+        android:textColor="#B16B83"/>
+
+    <ImageView
+        android:id="@+id/imgTks"
+        android:layout_width="288dp"
+        android:layout_height="288dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ta_tksorder" />
+
+    <TextView
+        android:id="@+id/tVTksOrder"
+        android:layout_width="239dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="#D388A1"
+        android:text="There's no better way to kick start your day with GócCàPhê" />
+
+    <Button
+        android:id="@+id/bntOrderAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Order Again"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F498B7"/>
+        <Button
+            android:id="@+id/bntCancelOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FDF5E8"
+            android:text="Cancel Order"
+            android:textColor="#B06B82" />
+
+</LinearLayout>

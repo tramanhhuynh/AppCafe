@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bntIdOrderHistory"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="#1234"
+            android:fontFamily="@font/inter_extrabold"
+            android:backgroundTint="#F19CB9"/>
+
+        <TextView
+            android:id="@+id/tVPreOrderHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preparing Order"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="160dp"
+            android:fontFamily="@font/inter_medium"/>
+
+        <TextView
+            android:id="@+id/tVDayOrderHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25.10.2024"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="160dp"
+            />
+
+        <View
+            android:layout_width="220dp"
+            android:layout_marginLeft="160dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="65dp"
+            android:background="#6A6868" />
+
+        <ImageButton
+            android:id="@+id/imgBOrderHistory"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ta_nexticon2"
+            android:layout_gravity="right"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>
